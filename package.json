@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ariqf.github.io/reactwebprofile/",
-  "name": "gege",
+  "homepage": "https://ariqf.github.io/reactwebprofile",
+  "name": "reactwebprofile",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
