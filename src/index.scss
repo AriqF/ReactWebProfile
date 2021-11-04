@@ -17,7 +17,6 @@
   src: url('assets/fonts/MarkProMedium.ttf');
 }
 body {
-  margin: 0;
   font-family: MarkProMedium;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -31,16 +30,19 @@ body {
 }
 /* profile section */
 #profile-header{
-  padding-top: 80px;
-  padding-left: 52px;
-  padding-right: 52px;
+  padding-top: 70px;
+  padding-left: 52px !important;
+  padding-right: 52px !important;
   margin-bottom: 40px;
 }
 #img-section img{
   border-radius: 5px;
 }
-
-#text-section h2{
+// #profile-pict{
+//   max-width: 380px;
+//   max-height: 480px;
+// }
+#text-section h1{
   color: #fff;
   font-size: 52px;
 }
@@ -104,11 +106,47 @@ body {
 .skill-box{
   margin-bottom: 32px;
 }
+.prog-box{
+  margin: 14px;
+  border: 1px solid #ECEBEB;
+  border-radius: 5px;
+  padding: 20px 20px;
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 203.5px;
+  height: 191.5px; 
+  transition: background-color 0.2s ease-in-out;
+  
+}
+.prog-box:hover{
+  background-color: #DA0037;
+}
+.prog-box i{
+  font-size: 54px;
+}
+.prog-box h4{
+  position: relative;
+  margin-top: 8px;
+  text-align: center;
+}
+.prog-box h4::before{
+    margin-top: 3px;
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -10px;
+    width: 50px;
+    height: 1px;
+    background: #fff;
+}
 
 /* contact pages */
 #contact-page{
-  padding-top: 50px;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 form .form-floating input, form .form-floating textarea{
   background: transparent !important;
@@ -118,6 +156,22 @@ form .form-floating input, form .form-floating textarea{
 }
 form .form-floating input::placeholder, form .form-floating textarea::placeholder{
   color: #777272 !important;
+}
+.form-control:focus {
+  border-color: #DA0037;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #DA0037;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #fff;
+  -webkit-text-fill-color: #fff;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0.1s;
 }
 #contacts-list li{
   margin-bottom: 16px;
@@ -158,5 +212,44 @@ form .form-floating input::placeholder, form .form-floating textarea::placeholde
       font-size: 16px;
   }
 }
+@media(width: 992px){
+  .prog-box{
+    margin: 12px;
+  }
+}
+@media(min-width:1400px){
+  .prog-box{
+    width: 290.5px;
+    height: 270.5px;
+  }
+}
+@media(min-width:1200px) and (max-width: 1399px){
+  .prog-box{
+    width:246.5px;
+    height:226.5px
+  }
+}
+@media(min-width: 577px) and (max-width: 768px){
+  .prog-box{
+    width: 225px;
+    height: 205px; 
+  }
+}
+@media(min-width: 470px) and (max-width: 576px){
+  .prog-box{
+    width: 195px;
+    height: 165px
+  }
+}
+@media(max-width: 469px){
+  .prog-box{
+    width: 405.5px;
+  }
+}
+
+
+
+
+
 
 
