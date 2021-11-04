@@ -10,7 +10,7 @@ import ContactUs from './Pages/ContactUs';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <HashRouter basename="/">
         <NavigationBar />
         <Switch>
           <Route exact path="/" >
@@ -23,7 +23,7 @@ ReactDOM.render(
             <ContactUs />
           </Route>
         </Switch>
-      </Router>
+      </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
