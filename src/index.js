@@ -10,10 +10,10 @@ import ContactUs from './Pages/ContactUs';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="/">
+    <Router basename={process.env.PUBLIC_URL}>
         <NavigationBar />
         <Switch>
-          <Route exact path="/" basename={process.env.PUBLIC_URL}>
+          <Route exact path="/" >
             <App />
           </Route>
           <Route  path="/resume">
