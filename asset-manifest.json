@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/reactwebprofile/static/css/main.05d3d36f.chunk.css",
-    "main.js": "/reactwebprofile/static/js/main.bcbdbd30.chunk.js",
-    "main.js.map": "/reactwebprofile/static/js/main.bcbdbd30.chunk.js.map",
-    "runtime-main.js": "/reactwebprofile/static/js/runtime-main.c599b66e.js",
-    "runtime-main.js.map": "/reactwebprofile/static/js/runtime-main.c599b66e.js.map",
+    "main.js": "/reactwebprofile/static/js/main.7f997930.chunk.js",
+    "main.js.map": "/reactwebprofile/static/js/main.7f997930.chunk.js.map",
+    "runtime-main.js": "/reactwebprofile/static/js/runtime-main.0fec3465.js",
+    "runtime-main.js.map": "/reactwebprofile/static/js/runtime-main.0fec3465.js.map",
     "static/css/2.a9a27d1d.chunk.css": "/reactwebprofile/static/css/2.a9a27d1d.chunk.css",
-    "static/js/2.8e1af129.chunk.js": "/reactwebprofile/static/js/2.8e1af129.chunk.js",
-    "static/js/2.8e1af129.chunk.js.map": "/reactwebprofile/static/js/2.8e1af129.chunk.js.map",
-    "static/js/3.f44d2b9a.chunk.js": "/reactwebprofile/static/js/3.f44d2b9a.chunk.js",
-    "static/js/3.f44d2b9a.chunk.js.map": "/reactwebprofile/static/js/3.f44d2b9a.chunk.js.map",
+    "static/js/2.2de1b37c.chunk.js": "/reactwebprofile/static/js/2.2de1b37c.chunk.js",
+    "static/js/2.2de1b37c.chunk.js.map": "/reactwebprofile/static/js/2.2de1b37c.chunk.js.map",
+    "static/js/3.f8345d65.chunk.js": "/reactwebprofile/static/js/3.f8345d65.chunk.js",
+    "static/js/3.f8345d65.chunk.js.map": "/reactwebprofile/static/js/3.f8345d65.chunk.js.map",
     "index.html": "/reactwebprofile/index.html",
     "static/css/2.a9a27d1d.chunk.css.map": "/reactwebprofile/static/css/2.a9a27d1d.chunk.css.map",
     "static/css/main.05d3d36f.chunk.css.map": "/reactwebprofile/static/css/main.05d3d36f.chunk.css.map",
-    "static/js/2.8e1af129.chunk.js.LICENSE.txt": "/reactwebprofile/static/js/2.8e1af129.chunk.js.LICENSE.txt",
+    "static/js/2.2de1b37c.chunk.js.LICENSE.txt": "/reactwebprofile/static/js/2.2de1b37c.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/reactwebprofile/static/media/MarkProMedium.b2c5cc8c.ttf",
     "static/media/afr.7bb6f072.jpg": "/reactwebprofile/static/media/afr.7bb6f072.jpg",
     "static/media/lara-tales.cc7cfb20.png": "/reactwebprofile/static/media/lara-tales.cc7cfb20.png",
@@ -22,10 +22,10 @@
     "static/media/ringkasnet.bdd273a2.png": "/reactwebprofile/static/media/ringkasnet.bdd273a2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c599b66e.js",
+    "static/js/runtime-main.0fec3465.js",
     "static/css/2.a9a27d1d.chunk.css",
-    "static/js/2.8e1af129.chunk.js",
+    "static/js/2.2de1b37c.chunk.js",
     "static/css/main.05d3d36f.chunk.css",
-    "static/js/main.bcbdbd30.chunk.js"
+    "static/js/main.7f997930.chunk.js"
   ]
 }
