@@ -14,10 +14,8 @@ function App() {
 
   return (
     <> 
-      <HashRouter basename="/">
         <MyProfile />
         <Projects />
-      </HashRouter>
 
     </>
   );
