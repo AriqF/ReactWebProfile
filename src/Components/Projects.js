@@ -6,9 +6,9 @@ import { Row, Col, Container } from 'react-bootstrap';
 
 function Projects(){
     return (
-        <div className="page-section" id="profile-header">
+        <div className="page-section" id="projects">
             <Container>
-                <Container className="container-fluid text-center">
+                <div className="container-fluid text-center">
                     <h2 style={{marginTop: '48px'}}>My Projects</h2>
                     <p className="ls-1"><span style={{backgroundColor: '#DA0037', padding: '2px 12px 2px 12px'}}>Check Out a Few of My Lastest Projects</span></p>
                     <Row >
@@ -25,7 +25,7 @@ function Projects(){
                         <LaraTalesPro />
                     </Col>
                     </Row> 
-                </Container> 
+                </div> 
             </Container>
         </div>
     );
