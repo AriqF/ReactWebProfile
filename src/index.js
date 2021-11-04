@@ -13,7 +13,7 @@ ReactDOM.render(
     <Router>
         <NavigationBar />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/" basename={process.env.PUBLIC_URL}>
             <App />
           </Route>
           <Route  path="/resume">

@@ -12,15 +12,15 @@ function ContactUs(){
                     <Col xl={6} lg={12} md={12}>
                         <form className="needs-validation" method="POST" encType="multipart/form-data" action="https://formspree.io/f/mjvjdkpy">
                             <div className="form-floating mb-3">
-                                <input id="name" type="text" className="form-control" name="name"  required autoFocus />
+                                <input id="name" type="text" className="form-control" name="name"  required  />
                                 <label for="name">Name</label>
                             </div>
                             <div className="form-floating mb-3">
-                                <input id="email" type="email" className="form-control" name="email"  required autoFocus />
+                                <input id="email" type="email" className="form-control" name="email"  required  />
                                 <label for="email">Email</label>
                             </div>
                             <div className="form-floating mb-3">
-                                <input id="subject" type="text" className="form-control" name="subject"  required autoFocus />
+                                <input id="subject" type="text" className="form-control" name="subject"  required  />
                                 <label for="subject">Subject</label>
                             </div>
                             <div className="form-floating mb-3">
