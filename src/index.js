@@ -10,7 +10,7 @@ import ContactUs from './Pages/ContactUs';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
         <NavigationBar />
         <Switch>
           <Route exact path="/" >
