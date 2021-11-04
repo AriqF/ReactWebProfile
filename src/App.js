@@ -4,6 +4,7 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import MyProfile from './Components/MyProfile';
 import Projects from './Components/Projects';
+import { HashRouter } from 'react-router-dom';
 
 function App() {
 
@@ -12,9 +13,12 @@ function App() {
   });
 
   return (
-    <>  
-      <MyProfile />
-      <Projects />
+    <> 
+      <HashRouter basename="/">
+        <MyProfile />
+        <Projects />
+      </HashRouter>
+
     </>
   );
 }

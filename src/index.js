@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, HashRouter } from "react-router-dom";
 import NavigationBar from './Components/NavigationBar';
 import reportWebVitals from './reportWebVitals';
 import MyResume from './Pages/MyResume';

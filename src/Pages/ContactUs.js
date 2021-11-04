@@ -1,7 +1,14 @@
 import { Col, Container, Row, Button } from "react-bootstrap";
+import { useForm, ValidationError } from '@formspree/react';
 
 
 function ContactUs(){
+
+    const [state, handleSubmit] = useForm("mjvjdkpy");
+    if (state.succeeded) {
+        return <p>Thanks for joining!</p>;
+    }
+
     return(
         <>
         <div className="page-section" id="contact-page">
@@ -10,7 +17,7 @@ function ContactUs(){
                 <h5 style={{marginBottom: '32px'}}>Very Happy To Have Further Discussion</h5>
                 <Row>
                     <Col xl={6} lg={12} md={12}>
-                        <form className="needs-validation" method="POST" encType="multipart/form-data" action="https://formspree.io/f/mjvjdkpy">
+                        <form className="needs-validation" encType="multipart/form-data" onSubmit={handleSubmit}>
                             <div className="form-floating mb-3">
                                 <input id="name" type="text" className="form-control" name="name"  required  />
                                 <label for="name">Name</label>
