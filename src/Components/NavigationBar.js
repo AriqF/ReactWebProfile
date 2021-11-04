@@ -6,7 +6,7 @@ import '../index.scss';
 
 function NavigationBar(){
     return(
-        <Navbar style={{backgroundColor:'#171717',}} variant="dark" expand="lg">
+        <Navbar style={{backgroundColor:'#171717',}} variant="dark" expand="lg" className="sticky-top">
             <Container>
                 <Navbar.Brand>AFR</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

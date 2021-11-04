@@ -5,7 +5,7 @@ import imgLaraTales from '../../assets/img/lara-tales.png';
 function MoKaryaPro(){
     return(
         <div className="project-items">
-            <img className="img-fluid project-img" src={imgLaraTales} />
+            <img className="img-fluid " src={imgLaraTales} />
             <h4>Lara Tales</h4>
             <div className="box-body">
                 <div className="d-flex d-row text-center tag-container">   
@@ -13,7 +13,8 @@ function MoKaryaPro(){
                     <div className="tag"><Badge bg="danger">C#</Badge></div> 
                 </div>
                 <p>
-                    Lara Tales is an Action 2D Platformer game. This game consist of several stages with enemy and bosses.
+                    Lara Tales is an Action 2D Platformer game and consist several stages with enemy and bosses. This
+                    game available on Windows platform only. 
                 </p>
             </div>
             <div className="box-button">

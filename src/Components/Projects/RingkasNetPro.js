@@ -5,7 +5,7 @@ import imgRingkasnet from '../../assets/img/ringkasnet.png';
 function MoKaryaPro(){
     return(
         <div className="project-items">
-            <img className="img-fluid project-img" src={imgRingkasnet} />
+            <img className="img-fluid " src={imgRingkasnet} />
             <h4>Ringkas.Net</h4>
             <div className="box-body">
                 <div className="d-flex d-row text-center tag-container">   
