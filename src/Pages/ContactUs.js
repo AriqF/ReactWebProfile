@@ -1,12 +1,28 @@
 import { Col, Container, Row, Button } from "react-bootstrap";
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
+import { useHistory } from "react-router-dom";
 
 
 function ContactUs(){
 
     const [state, handleSubmit] = useForm("mjvjdkpy");
+    const MySwal = withReactContent(Swal);
+    const history = useHistory();
+    const reloadPage = async () => {
+        setTimeout(function(){
+            window.location.reload(1);
+         }, 500);
+    }
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        return MySwal.fire({
+            title: <strong>Message Received!</strong>,
+            html: <i>We will response to you as soon as possible, Thank you for contacting</i>,
+            icon: 'success',
+            showConfirmButton: false,
+            value: reloadPage()
+        });
     }
 
     return(

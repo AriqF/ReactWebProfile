@@ -5,7 +5,7 @@ import imgMango from '../../assets/img/mango.png';
 function MoKaryaPro(){
     return(
         <div className="project-items">
-            <img className="img-fluid " src={imgMango} />
+            <img className="img-fluid " src={imgMango} alt="mango-project"/>
             <h4>ManGo</h4>
             <div className="box-body">
                 <div className="d-flex d-row text-center tag-container">   

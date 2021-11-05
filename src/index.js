@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
+// eslint-disable-next-line
 import { BrowserRouter as Router, Switch, Route, HashRouter } from "react-router-dom";
 import NavigationBar from './Components/NavigationBar';
 import reportWebVitals from './reportWebVitals';

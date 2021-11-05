@@ -6,7 +6,7 @@ import imgMokarya from '../../assets/img/mokarya2.png';
 function MoKaryaPro(){
     return(
         <div className="project-items">
-            <img className="img-fluid" src={imgMokarya} />
+            <img className="img-fluid" src={imgMokarya} alt="mokarya-project"/>
             <h4>MoKarya</h4>
             <div className="box-body">
                 <div className="d-flex d-row text-center tag-container">   

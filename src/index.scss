@@ -118,11 +118,9 @@ body {
   flex-direction: column;
   width: 203.5px;
   height: 191.5px; 
-  transition: background-color 0.2s ease-in-out;
+  // transition: background-color 0.2s ease-in-out;
+
   
-}
-.prog-box:hover{
-  background-color: #DA0037;
 }
 .prog-box i{
   font-size: 54px;

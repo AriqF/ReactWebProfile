@@ -5,7 +5,7 @@ import imgLaraTales from '../../assets/img/lara-tales.png';
 function MoKaryaPro(){
     return(
         <div className="project-items">
-            <img className="img-fluid " src={imgLaraTales} />
+            <img className="img-fluid " src={imgLaraTales} alt="lara-tales-project"/>
             <h4>Lara Tales</h4>
             <div className="box-body">
                 <div className="d-flex d-row text-center tag-container">   

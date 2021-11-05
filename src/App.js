@@ -4,7 +4,7 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import MyProfile from './Components/MyProfile';
 import Projects from './Components/Projects';
-import { HashRouter } from 'react-router-dom';
+import {Link} from 'react-scroll'
 
 function App() {
 
@@ -15,8 +15,7 @@ function App() {
   return (
     <> 
         <MyProfile />
-        <Projects />
-
+        <Projects/>
     </>
   );
 }

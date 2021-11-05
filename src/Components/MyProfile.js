@@ -1,14 +1,16 @@
 import myPhoto from '../assets/img/afr.jpg';
 import { Row, Col, Container, Button } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
+import {Link} from 'react-scroll'
 
 function MyProfile(){
+
     return (
         <div className="page-section" id="profile-header">
             <Container>
                 <Row className="text-left align-items-center">
                     <Col xl={4} lg={12} md={12} id="img-section">
-                        <img className="img-fluid" src={myPhoto} id="profile-pict" />
+                        <img className="img-fluid" src={myPhoto} id="profile-pict" alt="afr-profile-pict"/>
                     </Col>
                     <Col xl={8} lg={12} md={12} className="align-items-center" id="text-section">
                         <h1 id="hi">Hello, I'm <h1 className="fadeInRight" style={{backgroundColor: '#DA0037'}}>Ariq Fachry</h1></h1>
@@ -25,7 +27,10 @@ function MyProfile(){
                                 
                             </div>
                             <div class="p-2">
-                                <Button href="#projects" variant="custom" className="btnr btnr-trans">Projects</Button>
+                                <Link to="projects" spy={true} smooth={true} duration={50}>
+                                    <Button variant="custom" className="btnr btnr-trans">Projects</Button>
+                                </Link>
+
                             </div>
                         </div>
                     </Col>

@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ariqf.github.io/reactwebprofile",
-  "name": "reactwebprofile",
+  "homepage": "https://ariqf.github.io/afrwebprofile",
+  "name": "afrwebprofile",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -21,6 +21,9 @@
     "react-router": "^5.2.1",
     "react-router-bootstrap": "^0.25.0",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.4",
+    "sweetalert2": "^11.1.9",
+    "sweetalert2-react-content": "^4.2.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

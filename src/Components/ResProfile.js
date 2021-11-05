@@ -7,7 +7,7 @@ function ResProfile(){
             <Container>
                 <Row className="text-left align-items-center">
                     <Col xl={4} lg={12} md={12} id="img-section">
-                        <img className="img-fluid" src={myPhoto} id="profile-pict" />
+                        <img className="img-fluid" src={myPhoto} id="profile-pict" alt="afr-profile-pict"/>
                     </Col>
                     <Col xl={8} lg={12} md={12} className="align-items-center" id="text-section">
                         <h1 id="hi">Hello, I'm <h1 className="fadeInRight" style={{backgroundColor: '#DA0037'}}>Ariq Fachry</h1></h1>
