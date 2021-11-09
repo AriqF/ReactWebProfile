@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/afrwebprofile/static/css/main.65bf01a1.chunk.css",
-    "main.js": "/afrwebprofile/static/js/main.8bace581.chunk.js",
-    "main.js.map": "/afrwebprofile/static/js/main.8bace581.chunk.js.map",
-    "runtime-main.js": "/afrwebprofile/static/js/runtime-main.0c686ea6.js",
-    "runtime-main.js.map": "/afrwebprofile/static/js/runtime-main.0c686ea6.js.map",
+    "main.css": "/afrwebprofile/static/css/main.fd4a9043.chunk.css",
+    "main.js": "/afrwebprofile/static/js/main.480337e9.chunk.js",
+    "main.js.map": "/afrwebprofile/static/js/main.480337e9.chunk.js.map",
+    "runtime-main.js": "/afrwebprofile/static/js/runtime-main.18ded8e2.js",
+    "runtime-main.js.map": "/afrwebprofile/static/js/runtime-main.18ded8e2.js.map",
     "static/css/2.a9a27d1d.chunk.css": "/afrwebprofile/static/css/2.a9a27d1d.chunk.css",
-    "static/js/2.11e44aa6.chunk.js": "/afrwebprofile/static/js/2.11e44aa6.chunk.js",
-    "static/js/2.11e44aa6.chunk.js.map": "/afrwebprofile/static/js/2.11e44aa6.chunk.js.map",
-    "static/js/3.9471a522.chunk.js": "/afrwebprofile/static/js/3.9471a522.chunk.js",
-    "static/js/3.9471a522.chunk.js.map": "/afrwebprofile/static/js/3.9471a522.chunk.js.map",
+    "static/js/2.8f2ba2d3.chunk.js": "/afrwebprofile/static/js/2.8f2ba2d3.chunk.js",
+    "static/js/2.8f2ba2d3.chunk.js.map": "/afrwebprofile/static/js/2.8f2ba2d3.chunk.js.map",
+    "static/js/3.becbed73.chunk.js": "/afrwebprofile/static/js/3.becbed73.chunk.js",
+    "static/js/3.becbed73.chunk.js.map": "/afrwebprofile/static/js/3.becbed73.chunk.js.map",
     "index.html": "/afrwebprofile/index.html",
     "static/css/2.a9a27d1d.chunk.css.map": "/afrwebprofile/static/css/2.a9a27d1d.chunk.css.map",
-    "static/css/main.65bf01a1.chunk.css.map": "/afrwebprofile/static/css/main.65bf01a1.chunk.css.map",
-    "static/js/2.11e44aa6.chunk.js.LICENSE.txt": "/afrwebprofile/static/js/2.11e44aa6.chunk.js.LICENSE.txt",
+    "static/css/main.fd4a9043.chunk.css.map": "/afrwebprofile/static/css/main.fd4a9043.chunk.css.map",
+    "static/js/2.8f2ba2d3.chunk.js.LICENSE.txt": "/afrwebprofile/static/js/2.8f2ba2d3.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/afrwebprofile/static/media/MarkProMedium.b2c5cc8c.ttf",
     "static/media/afr.7bb6f072.jpg": "/afrwebprofile/static/media/afr.7bb6f072.jpg",
     "static/media/lara-tales.cc7cfb20.png": "/afrwebprofile/static/media/lara-tales.cc7cfb20.png",
@@ -22,10 +22,10 @@
     "static/media/ringkasnet.bdd273a2.png": "/afrwebprofile/static/media/ringkasnet.bdd273a2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0c686ea6.js",
+    "static/js/runtime-main.18ded8e2.js",
     "static/css/2.a9a27d1d.chunk.css",
-    "static/js/2.11e44aa6.chunk.js",
-    "static/css/main.65bf01a1.chunk.css",
-    "static/js/main.8bace581.chunk.js"
+    "static/js/2.8f2ba2d3.chunk.js",
+    "static/css/main.fd4a9043.chunk.css",
+    "static/js/main.480337e9.chunk.js"
   ]
 }
