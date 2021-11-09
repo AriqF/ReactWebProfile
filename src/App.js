@@ -1,21 +1,30 @@
-import './App.scss';
-import AOS from 'aos';
-import 'aos/dist/aos.css'
-import { useEffect } from 'react';
-import MyProfile from './Components/MyProfile';
-import Projects from './Components/Projects';
-import {Link} from 'react-scroll'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.scss';
+// eslint-disable-next-line
+import { BrowserRouter as Router, Switch, Route, HashRouter } from "react-router-dom";
+import NavigationBar from './Components/NavigationBar';
+import MyResume from './Pages/MyResume';
+import ContactUs from './Pages/ContactUs';
+import Home from './Pages/Home';
 
-function App() {
-
-  useEffect(() => {
-    AOS.init();
-  });
-
-  return (
-    <> 
-        <MyProfile />
-        <Projects/>
+function App(){
+  return(
+    <>
+      <Router basename="/">
+        <NavigationBar />
+        <Switch>
+          <Route exact path="/" >
+            <Home />
+          </Route>
+          <Route  path="/resume">
+            <MyResume />
+          </Route>
+          <Route  path="/contact">
+            <ContactUs />
+          </Route>
+        </Switch>
+      </Router>
     </>
   );
 }
