@@ -11,7 +11,7 @@ import Home from './Pages/Home';
 function App(){
   return(
     <>
-      <Router basename="/">
+      <HashRouter basename="/">
         <NavigationBar />
         <Switch>
           <Route exact path="/" >
@@ -24,7 +24,7 @@ function App(){
             <ContactUs />
           </Route>
         </Switch>
-      </Router>
+      </HashRouter>
     </>
   );
 }
