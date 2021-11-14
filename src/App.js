@@ -7,23 +7,27 @@ import NavigationBar from './Components/NavigationBar';
 import MyResume from './Pages/MyResume';
 import ContactUs from './Pages/ContactUs';
 import Home from './Pages/Home';
+import ScrollToTop from './Functions/ScrollToTop';
 
 function App(){
   return(
     <>
       <HashRouter basename="/">
-        <NavigationBar />
-        <Switch>
-          <Route exact path="/" >
-            <Home />
-          </Route>
-          <Route  path="/resume">
-            <MyResume />
-          </Route>
-          <Route  path="/contact">
-            <ContactUs />
-          </Route>
-        </Switch>
+        <ScrollToTop>
+          <NavigationBar />
+          <Switch>
+            <Route exact path="/" >
+              <Home />
+            </Route>
+            <Route  path="/resume">
+              <MyResume />
+            </Route>
+            <Route  path="/contact">
+              <ContactUs />
+            </Route>
+          </Switch>
+        </ScrollToTop>
+
       </HashRouter>
     </>
   );
