@@ -14,8 +14,8 @@ function ResProfile(){
                         <p>Currently a third year vocational student at faculty of vocational in Surabaya State University, Indonesia. 
                             I have a strong interest in software development and game development. I also have quite experienced 
                             in web development especially in Front-End development. During working on the projects, i usually take 
-                            the lead of the team. So these works made me have ability to communicate well and leadership skills.
-                            I usually used to work with the help of some tools like GitHub for collaboration and Notion for planner and scrum to make my works more efficient.
+                            the lead of the team. So these works taught me an ability to communicate well and leadership.
+                            I usually used to work with the help of some tools like GitHub for collaboration and Notion for planner, project management, and scrum to make my works more efficient.
                         </p>
                         <div className="text-left" id="personal">
                             <Row>
