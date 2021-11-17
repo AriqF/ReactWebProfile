@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.scss';
 // eslint-disable-next-line
 import { BrowserRouter as Router, Switch, Route, HashRouter } from "react-router-dom";

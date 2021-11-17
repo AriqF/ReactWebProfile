@@ -9,6 +9,7 @@ function MyResume(){
 
     useEffect(() => {
         AOS.init();
+        document.title = "Resume | AFR Web Profile";
       });
 
     return(
