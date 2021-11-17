@@ -20,7 +20,7 @@ function MoKaryaPro(){
             <div className="box-button">
                 <div className="d-flex flex-row">
                     <div className="p-2" style={{paddingLeft: '0 !important'}}>
-                    <a href="https://github.com/AriqF/MoKarya" class="btnrs btnr-git"><i class="fab fa-github"></i> Github Repo</a>
+                    <a href="https://drive.google.com/file/d/1poOfYX7DmdFn_LYqgseGOMMWgYnp6rlj/view?usp=sharing" class="btnrs btnr-git"><i class="fas fa-download"></i> Download</a>
                     </div>
                 </div>
             </div>

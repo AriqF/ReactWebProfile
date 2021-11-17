@@ -9,8 +9,10 @@ function MoKaryaPro(){
             <h4>ManGo</h4>
             <div className="box-body">
                 <div className="d-flex d-row text-center tag-container">   
-                    <div class="tag pl-0"><Badge bg="danger">Unity</Badge></div>
-                    <div className="tag"><Badge bg="danger">C#</Badge></div> 
+                    <div class="tag pl-0"><Badge bg="danger">HTML&CSS</Badge></div>
+                    <div class="tag"><Badge bg="danger">Laravel</Badge></div>
+                    <div class="tag"><Badge bg="danger">Javascript</Badge></div>
+                    <div className="tag"><Badge bg="danger">MySQL</Badge></div> 
                 </div>
                 <p>
                     A website for all users to learn and study Japanese basic level. Created using

@@ -10,6 +10,7 @@ function MoKaryaPro(){
             <div className="box-body">
                 <div className="d-flex d-row text-center tag-container">   
                     <div class="tag pl-0"><Badge bg="danger">HTML&CSS</Badge></div>
+                    <div class="tag"><Badge bg="danger">Javascript</Badge></div>
                     <div className="tag"><Badge bg="danger">php</Badge></div> 
                     <div className="tag"><Badge bg="danger">MySQL</Badge></div>
                 </div>
