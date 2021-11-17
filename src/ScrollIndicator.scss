@@ -1,0 +1,10 @@
+.progressMainWrapper::before{
+    background-color: #000;
+    height: 4px;
+    width: 100%;
+}
+
+.progressMainStyle::before{
+    height: 4px;
+    background-color: #DA0037;
+}
