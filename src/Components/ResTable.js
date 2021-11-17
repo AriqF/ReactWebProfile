@@ -53,9 +53,18 @@ function ResTable(){
                     </tbody>
                 </Table>
 
-                <h2 className="subheader-resume">Certification and Awards</h2>
+                <h2 className="subheader-resume">Certification, Awards, And Organizations</h2>
                 <Table className="table-education" data-aos="fade-down" data-aos-duration="1000">
                     <tbody>
+                        <tr>
+                            <td className="td-org">
+                                Students Association (HIMAPRO) <span className="text-muted"> - State University of Surabaya Language Center</span>
+                                <br /> <span className="text-muted"><small>Surabaya - Indonesia</small></span>
+                            </td>
+                            <td className="td-year text-center">
+                                2020 
+                            </td>
+                        </tr>
                         <tr>
                             <td className="td-org">
                                 English TEP 517 <span className="text-muted"> - State University of Surabaya Language Center</span>
