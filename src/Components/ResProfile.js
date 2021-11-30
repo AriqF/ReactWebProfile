@@ -41,7 +41,7 @@ function ResProfile(){
                                 </Col>
                             </Row>
                             <div className="d-flex flex-row align-items-center text-center">
-                                <a className="sns" href="https://www.linkedin.com/in/ariq-fachry-3293701b5" style={{marginLeft: '0 !important'}}>
+                                <a className="sns" href="https://www.linkedin.com/in/AriqFachry" style={{marginLeft: '0 !important'}}>
                                     <span className="fab fa-linkedin-in fa-2x"></span>
                                 </a>
                                 <a className="sns" href="https://github.com/AriqF">
