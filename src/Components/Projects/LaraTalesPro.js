@@ -1,12 +1,15 @@
 import { Badge } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import imgLaraTales from '../../assets/img/lara-tales.png';
-
 
 function MoKaryaPro(){
     return(
         <div className="project-items">
             <img className="img-fluid " src={imgLaraTales} alt="lara-tales-project"/>
-            <h4>Lara Tales</h4>
+            <Link to="/LaraTalesDet" className="projectLink">
+                <h4>Lara Tales</h4>
+            </Link>
+
             <div className="box-body">
                 <div className="d-flex d-row text-center tag-container">   
                     <div class="tag pl-0"><Badge bg="danger">Unity</Badge></div>
