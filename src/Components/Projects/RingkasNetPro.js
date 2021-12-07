@@ -19,13 +19,13 @@ function MoKaryaPro(){
                     is created using php native and MySQL as database.
                 </p>
             </div>
-            <div className="box-button">
+            {/* <div className="box-button">
                 <div className="d-flex flex-row">
                     <div className="p-2" style={{paddingLeft: '0 !important'}}>
                     <a href="https://github.com/AriqF/Ringkas-Net" class="btnrs btnr-git"><i class="fab fa-github"></i> Github Repo</a>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

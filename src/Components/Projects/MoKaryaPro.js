@@ -20,13 +20,13 @@ function MoKaryaPro(){
                     This website created with native php and MySQL as a database.
                 </p>
             </div>
-            <div className="box-button">
+            {/* <div className="box-button">
                 <div className="d-flex flex-row">
                     <div className="p-2" style={{paddingLeft: '0 !important'}}>
                     <a href="https://github.com/AriqF/MoKarya" class="btnrs btnr-git"><i class="fab fa-github"></i> Github Repo</a>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

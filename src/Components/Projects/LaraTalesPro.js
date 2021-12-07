@@ -6,7 +6,7 @@ function MoKaryaPro(){
     return(
         <div className="project-items">
             <img className="img-fluid " src={imgLaraTales} alt="lara-tales-project"/>
-            <Link to="/LaraTalesDet" className="projectLink">
+            <Link to="/laratales-details" className="projectLink">
                 <h4>Lara Tales</h4>
             </Link>
 
@@ -20,13 +20,13 @@ function MoKaryaPro(){
                     game available on Windows platform only. 
                 </p>
             </div>
-            <div className="box-button">
+            {/* <div className="box-button">
                 <div className="d-flex flex-row">
                     <div className="p-2" style={{paddingLeft: '0 !important'}}>
                     <a href="https://drive.google.com/file/d/1poOfYX7DmdFn_LYqgseGOMMWgYnp6rlj/view?usp=sharing" class="btnrs btnr-git"><i class="fas fa-download"></i> Download</a>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }
