@@ -1,4 +1,5 @@
 import { Badge } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import imgRingkasnet from '../../assets/img/ringkasnet.png';
 
 
@@ -6,7 +7,9 @@ function MoKaryaPro(){
     return(
         <div className="project-items">
             <img className="img-fluid " src={imgRingkasnet} alt="ringkasnet-project"/>
-            <h4>Ringkas.Net</h4>
+            <a href="https://github.com/AriqF/Ringkas-Net" className="projectLink">
+                <h4>RingkasNet</h4>
+            </a>
             <div className="box-body">
                 <div className="d-flex d-row text-center tag-container">   
                     <div class="tag pl-0"><Badge bg="danger">HTML&CSS</Badge></div>

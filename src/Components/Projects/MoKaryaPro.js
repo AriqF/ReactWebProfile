@@ -7,7 +7,9 @@ function MoKaryaPro(){
     return(
         <div className="project-items">
             <img className="img-fluid" src={imgMokarya} alt="mokarya-project"/>
-            <h4>MoKarya</h4>
+            <a href="https://github.com/AriqF/MoKarya" className="projectLink">
+                <h4>MoKarya</h4>
+            </a>
             <div className="box-body">
                 <div className="d-flex d-row text-center tag-container">   
                     <div class="tag pl-0"><Badge bg="danger">HTML&CSS</Badge></div>
