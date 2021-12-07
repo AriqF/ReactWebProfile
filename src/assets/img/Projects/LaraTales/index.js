@@ -1,0 +1,10 @@
+export {default as mainMenu} from './mainMenu.png';
+export {default as Dialogue} from './Dialogue.png';
+export {default as stageCave} from './stageCave.png';
+export {default as stageCave2} from './stageCave2.png';
+export {default as stageCave3} from './stageCave3.png';
+export {default as stageCave4} from './stageCave4.png';
+export {default as stageFire1} from './stageFire1.png';
+export {default as stageFire2} from './stageFire2.png';
+export {default as stageFire3} from './stageFire3.png';
+export {default as lastStage} from './lastStage.png';
