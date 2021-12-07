@@ -1,0 +1,83 @@
+@media (min-width: 300px) {
+    .box-body{
+        height: max-content;
+    }
+    #project-buttons .p-2{
+        padding-left: 0 !important;
+        padding: 3px !important;
+    }
+    #hi{
+        margin-top: 20px;
+    }
+    .ip{
+        font-size: 12px;
+    }
+    .projectContainer{
+        margin-top: 35px !important;
+        padding: 0px !important;
+    }
+    .details{
+        padding: 30px;
+    }
+  }
+  @media (min-width: 300px) and (max-width: 1200px){
+    #box-right{
+        margin-top: 32px;
+    }
+    
+  }
+  @media(min-width: 600px){
+    .ip{
+        font-size: 16px;
+    }
+  }
+  @media(width: 992px){
+    .prog-box{
+      margin: 12px;
+    }
+  }
+  @media(min-width:1400px){
+    .prog-box{
+      width: 290.5px;
+      height: 270.5px;
+    }
+  }
+  @media(min-width:1200px){
+    .prog-box{
+      width:246.5px;
+      height:226.5px
+    }
+    .buttonContainer{
+      flex-direction: row;
+    }
+    .buttonContainer .btnr{
+      margin: 8px;
+    }
+  }
+  @media(min-width: 577px) and (max-width: 768px){
+    .prog-box{
+      width: 225px;
+      height: 205px; 
+    }
+  }
+  @media(min-width: 470px) and (max-width: 576px){
+    .prog-box{
+      width: 195px;
+      height: 165px
+    }
+  }
+  @media(max-width: 469px){
+    .prog-box{
+      width: 405.5px;
+    }
+    .buttonContainer{
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+    }
+    .buttonContainer .btnr{
+      width: 100%;
+      
+    }
+  }
+  

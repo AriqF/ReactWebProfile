@@ -49,25 +49,23 @@ body:after {
     padding-bottom: 18px;
 }
 /* buttons */
-.btnr{
-    padding: 13px 28px;
+.btnr, .btnrs{
+    text-decoration: none;
+    transition: background-color 0.3s ease-out;
+    overflow-wrap: break-word;
+    display: inline-block;
+    text-align: center;   
     font-family: MarkProMedium;
     font-size: 14px;
     border: none;
     border-radius: 6px;
     margin-bottom: 16px;
-    text-decoration: none;
-    transition: background-color 0.3s ease-out;
+}
+.btnr{
+    padding: 13px 28px;
 }
 .btnrs{
     padding: 13px 22px;
-    font-family: MarkProMedium;
-    font-size: 14px;
-    border: none;
-    border-radius: 6px;
-    margin-bottom: 16px;
-    text-decoration: none;
-    transition: background-color 0.3s ease-out;
 }
 .btnr:hover, .btnrs:hover{
     text-decoration: none;

@@ -1,0 +1,21 @@
+@font-face { 
+  font-family: MarkPro; 
+  src: url('assets/fonts/MarkPro.ttf');
+}
+@font-face { 
+  font-family: MarkProBold; 
+  src: url('assets/fonts/MarkProBold.ttf');
+}
+@font-face { 
+  font-family: MarkProHeavy; 
+  src: url('assets/fonts/MarkProHeavy.ttf');
+}
+@font-face { 
+  font-family: MarkProMedium; 
+  src: url('assets/fonts/MarkProMedium.ttf');
+}
+
+$theme1bg: #171717;
+$theme1Col1: #DA0037; 
+$theme1font: #fff;
+$theme1border: #ECEBEB;

@@ -1,28 +1,15 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import './utility.scss';
-@font-face { 
-  font-family: MarkPro; 
-  src: url('assets/fonts/MarkPro.ttf');
-}
-@font-face { 
-  font-family: MarkProBold; 
-  src: url('assets/fonts/MarkProBold.ttf');
-}
-@font-face { 
-  font-family: MarkProHeavy; 
-  src: url('assets/fonts/MarkProHeavy.ttf');
-}
-@font-face { 
-  font-family: MarkProMedium; 
-  src: url('assets/fonts/MarkProMedium.ttf');
-}
+@import './var.scss';
+@import './reponsive.scss';
+
 body {
   font-family: MarkProMedium;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background: #171717;
-  color: #fff;
+  background: $theme1bg;
+  color: $theme1font;
 }
 .nav-link{
   font-family: MarkProMedium; 
@@ -43,7 +30,7 @@ body {
 //   max-height: 480px;
 // }
 #text-section h1{
-  color: #fff;
+  color: $theme1font;
   font-size: 52px;
 }
 #text-section p{
@@ -82,16 +69,25 @@ body {
 }
 .project-items h4{
   font-size: 28px;
+
 }
 .project-items p{
   font-family: MarkPro;
   font-size: 16px;
 }
+.projectLink{
+  color: $theme1font;
+  text-decoration: none;
+}
+.projectLink:hover{
+  text-decoration: underline;
+  border-bottom: 1px solid $theme1border;
+  color: $theme1font;
+}
 .box-body{
   height: 21vh;
   margin-bottom: 18px;
 }
-
 /* resume page */
 .table-education{
   margin-top: 22px;
@@ -101,7 +97,7 @@ body {
   width: 852px;
 }
 .td-org, .td-year{
-  color: #fff;
+  color: $theme1font;
 }
 .subheader-resume{
   margin-top: 56px;
@@ -111,7 +107,7 @@ body {
 }
 .prog-box{
   margin: 14px;
-  border: 1px solid #ECEBEB;
+  border: 1px solid $theme1border;
   border-radius: 5px;
   padding: 20px 20px;
   display: flex;
@@ -122,8 +118,6 @@ body {
   width: 203.5px;
   height: 191.5px; 
   // transition: background-color 0.2s ease-in-out;
-
-  
 }
 .prog-box i{
   font-size: 54px;
@@ -134,15 +128,15 @@ body {
   text-align: center;
 }
 .prog-box h4::before{
-    margin-top: 3px;
-    content: '';
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: -10px;
-    width: 50px;
-    height: 1px;
-    background: #fff;
+  margin-top: 3px;
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -10px;
+  width: 50px;
+  height: 1px;
+  background: #fff;
 }
 
 /* contact pages */
@@ -152,15 +146,15 @@ body {
 form .form-floating input, form .form-floating textarea{
   background: transparent !important;
   border-radius: 4px !important;
-  color: #fff !important;
+  color: $theme1font !important;
   margin-bottom: 20px;
 }
 form .form-floating input::placeholder, form .form-floating textarea::placeholder{
   color: #777272 !important;
 }
 .form-control:focus {
-  border-color: #DA0037;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #DA0037;
+  border-color: $theme1Col1;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px $theme1Col1;
 }
 input:-webkit-autofill,
 input:-webkit-autofill:focus,
@@ -169,8 +163,8 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  border: 1px solid #fff;
-  -webkit-text-fill-color: #fff;
+  border: 1px solid $theme1border;
+  -webkit-text-fill-color: $theme1font;
   transition: background-color 5000s ease-in-out 0.1s;
 }
 #contacts-list li{
@@ -185,67 +179,93 @@ select:-webkit-autofill:focus {
   margin-top: 0;
 }
 
-/* responsive settings */
-@media (min-width: 300px) {
-  .box-body{
-      height: max-content;
-  }
-  #project-buttons .p-2{
-      padding-left: 0 !important;
-      padding: 3px !important;
-  }
-  #hi{
-      margin-top: 20px;
-  }
-  .ip{
-      font-size: 12px;
-  }
+// not found page
+.notFound{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-@media (min-width: 300px) and (max-width: 1200px){
-  #box-right{
-      margin-top: 32px;
-  }
-  
+.notFound h2{
+  font-size: 64px;
 }
-@media(min-width: 600px){
-  .ip{
-      font-size: 16px;
-  }
+.notFound p{
+  font-size: 18px;
 }
-@media(width: 992px){
-  .prog-box{
-    margin: 12px;
-  }
+
+//project details
+.projectContainer{
+  min-height: 90vh;
 }
-@media(min-width:1400px){
-  .prog-box{
-    width: 290.5px;
-    height: 270.5px;
-  }
+.titleContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 48px;
 }
-@media(min-width:1200px) and (max-width: 1399px){
-  .prog-box{
-    width:246.5px;
-    height:226.5px
-  }
+.titleContainer h2{
+  position: relative;
+  font-size: 42px;
+  margin-bottom: 0px !important;
 }
-@media(min-width: 577px) and (max-width: 768px){
-  .prog-box{
-    width: 225px;
-    height: 205px; 
-  }
+.titleContainer h2::before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 100px;
+  height: 2px;
+  background: $theme1Col1;
 }
-@media(min-width: 470px) and (max-width: 576px){
-  .prog-box{
-    width: 195px;
-    height: 165px
-  }
+.details{
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
-@media(max-width: 469px){
-  .prog-box{
-    width: 405.5px;
-  }
+.details p{
+  text-align: center;
+  font-size: 17px;
+  padding: auto 50px;
 }
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.buttonContainer .btnrs{
+  margin: 8px;
+  text-align: center;
+}
+.projectGallery{
+  margin-top: 38px !important;
+  margin: 30px;
+}
+.galleryItem{
+  margin-top: 22px;
+}
+.galleryImg{
+  max-height: 220px;
+  box-shadow: 10px 10px 5px -7px rgba(255,255,255,0.16);
+  -webkit-box-shadow: 10px 10px 5px -7px rgba(255,255,255,0.16);
+  -moz-box-shadow: 10px 10px 5px -7px rgba(255,255,255,0.16);
+  transition: box-shadow .2s ease-in-out;
+}
+.galleryImg:hover{
+  transform: scale(1.03);
+  transition: transform .4s ease-in-out;
+  box-shadow: 10px 10px 5px -7px rgba(255,255,255,0.23);
+  -webkit-box-shadow: 10px 10px 5px -7px rgba(255,255,255,0.23);
+  -moz-box-shadow: 10px 10px 5px -7px rgba(255,255,255,0.23);
+}
+.imgCaption{
+  text-align: center;
+  margin-top: 12px;
+}
+
 
 
 
