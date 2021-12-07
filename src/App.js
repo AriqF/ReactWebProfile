@@ -12,6 +12,7 @@ import Home from './Pages/Home';
 import ScrollToTop from './Functions/ScrollToTop';
 import NotFound from'./Pages/NotFound';
 import LaraTalesDet from './Pages/ProjectDetails/LaraTalesDet';
+import ManGoDet from './Pages/ProjectDetails/ManGoDet';
 
 function App(){
 
@@ -34,8 +35,11 @@ function App(){
             <Route path="/contact">
               <ContactUs />
             </Route>
-            <Route path="/LaraTalesDet">
+            <Route path="/laratales-details">
               <LaraTalesDet />
+            </Route>
+            <Route path="/mango-details">
+              <ManGoDet />
             </Route>
 
 
