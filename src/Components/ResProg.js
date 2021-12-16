@@ -92,6 +92,14 @@ function ResProg(){
                 <Col xl={3} lg={12}md={12} sm={12} className="prog-box" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="d-flex flex-row">
                         <div class="p-1">
+                        <i class="devicon-python-plain"></i>
+                        </div>
+                    </div>
+                    <h4>Python</h4>
+                </Col>
+                <Col xl={3} lg={12}md={12} sm={12} className="prog-box" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="d-flex flex-row">
+                        <div class="p-1">
                             <i class="devicon-unity-original"></i>
                         </div>
                     </div>
