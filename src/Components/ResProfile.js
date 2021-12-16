@@ -13,9 +13,8 @@ function ResProfile(){
                         <h1 id="hi">Hello, I'm <h1 className="fadeInRight" style={{backgroundColor: '#DA0037'}}>Ariq Fachry</h1></h1>
                         <p>Currently a third year vocational student at faculty of vocational in Surabaya State University, Indonesia. 
                             I have a strong interest in software development and game development. I also have quite experienced 
-                            in web development especially in Front-End development. During working on the projects, i usually take 
-                            the lead of the team. So these works taught me an ability to communicate well and leadership.
-                            I usually used to work with the help of some tools like GitHub for collaboration and Notion for planner, project management, and scrum to make my works more efficient.
+                            in web development especially in Front-End development. I am also able to work individually or with team and 
+                            able to communicate well. I used to work with the help of some tools like GitHub for collaboration and Notion for scheduling and task tracking to make my works more efficient.
                         </p>
                         <div className="text-left" id="personal">
                             <Row>
