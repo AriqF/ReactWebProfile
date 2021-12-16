@@ -1,10 +1,11 @@
 import ManGoGal from "../../Components/Projects/ManGoGal";
-import {Button} from "react-bootstrap";
+import {Button, Container} from "react-bootstrap";
 
 function ManGoDet() {
     
     return(
         <>
+        <Container>
             <div className="projectContainer">
                 <div className="titleContainer">
                     <h2>ManGo</h2>
@@ -21,9 +22,7 @@ function ManGoDet() {
                             Created using Laravel and MySQL as Database. <br />
                             In this project i took the role as Front-End Engineer and web content writer. This project also managed 
                             by scrum using Notion as the tools for increasing productivity and efficiency. 
-                        </p>
-
-                        
+                        </p>              
                         <div className="buttonContainer">
                             <a href="https://github.com/AriqF/man-go"
                             variant="custom" className="btnr btnr-red"><i class="fab fa-github"></i> Git Repository</a>  
@@ -41,6 +40,7 @@ function ManGoDet() {
                 </div>
 
             </div>
+        </Container>
         </>
     )
 }

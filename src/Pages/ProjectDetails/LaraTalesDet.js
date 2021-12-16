@@ -1,11 +1,12 @@
 //eslint-disable-next-line
-import { Badge, Col, Row, Table } from "react-bootstrap";
+import { Badge, Col, Container, Row, Table } from "react-bootstrap";
 import LaraTalesGal from "../../Components/Projects/LaraTalesGal";
 
 function LaraTalesDet(){
     document.title = "Projects | Lara Tales Detail";
     return(
         <>
+        <Container>
             <div className="projectContainer">
                 <div className="titleContainer">
                     <h2>Lara Tales</h2>
@@ -36,11 +37,9 @@ function LaraTalesDet(){
                     <div className="projectGallery text-center">
                             <LaraTalesGal />
                     </div>
-
                 </div>
-
             </div>
-
+        </Container>
         </>
     );
 }
