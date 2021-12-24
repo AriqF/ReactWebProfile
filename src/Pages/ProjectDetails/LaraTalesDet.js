@@ -18,7 +18,7 @@ function LaraTalesDet(){
                 <div className="bodyContainer">
                     <div className="details">
                         <p>
-                            Lara Tales is a simple action 2D platformer game and consist several stages with various enemy and bosses. 
+                            Lara Tales or "Kisah Lara" in Bahasa, is a simple action 2D platformer game and consist several stages with various enemy and bosses. 
                             There are also various traps that will challange the player to complete the stage.
                             This game was my college assignment and consist of 3 members of team. In this project I took a 
                             role as a main programmer while my other partners are story writer, map designer, and documentation.
