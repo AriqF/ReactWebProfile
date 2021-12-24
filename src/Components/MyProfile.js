@@ -1,4 +1,4 @@
-import myPhoto from '../assets/img/afr.jpg';
+import myPhoto from '../assets/img/afr.png';
 import { Row, Col, Container, Button } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import {Link} from 'react-scroll'

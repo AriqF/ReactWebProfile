@@ -1,4 +1,4 @@
-import myPhoto from '../assets/img/afr.jpg';
+import myPhoto from '../assets/img/afr2.png';
 import { Row, Col, Container } from 'react-bootstrap';
 
 function ResProfile(){
