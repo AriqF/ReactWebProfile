@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/afrwebprofile/static/css/main.031134ad.chunk.css",
-    "main.js": "/afrwebprofile/static/js/main.75ead60a.chunk.js",
-    "main.js.map": "/afrwebprofile/static/js/main.75ead60a.chunk.js.map",
+    "main.js": "/afrwebprofile/static/js/main.794a5f43.chunk.js",
+    "main.js.map": "/afrwebprofile/static/js/main.794a5f43.chunk.js.map",
     "runtime-main.js": "/afrwebprofile/static/js/runtime-main.18ded8e2.js",
     "runtime-main.js.map": "/afrwebprofile/static/js/runtime-main.18ded8e2.js.map",
     "static/css/2.a9a27d1d.chunk.css": "/afrwebprofile/static/css/2.a9a27d1d.chunk.css",
@@ -51,6 +51,6 @@
     "static/css/2.a9a27d1d.chunk.css",
     "static/js/2.a41c8381.chunk.js",
     "static/css/main.031134ad.chunk.css",
-    "static/js/main.75ead60a.chunk.js"
+    "static/js/main.794a5f43.chunk.js"
   ]
 }
