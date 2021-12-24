@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/afrwebprofile/static/css/main.031134ad.chunk.css",
-    "main.js": "/afrwebprofile/static/js/main.a83f4110.chunk.js",
-    "main.js.map": "/afrwebprofile/static/js/main.a83f4110.chunk.js.map",
+    "main.js": "/afrwebprofile/static/js/main.75ead60a.chunk.js",
+    "main.js.map": "/afrwebprofile/static/js/main.75ead60a.chunk.js.map",
     "runtime-main.js": "/afrwebprofile/static/js/runtime-main.18ded8e2.js",
     "runtime-main.js.map": "/afrwebprofile/static/js/runtime-main.18ded8e2.js.map",
     "static/css/2.a9a27d1d.chunk.css": "/afrwebprofile/static/css/2.a9a27d1d.chunk.css",
@@ -18,7 +18,8 @@
     "static/media/index.scss": "/afrwebprofile/static/media/MarkProMedium.b2c5cc8c.ttf",
     "static/media/about.e7eeadb6.png": "/afrwebprofile/static/media/about.e7eeadb6.png",
     "static/media/adminQuizList.8f0472a9.png": "/afrwebprofile/static/media/adminQuizList.8f0472a9.png",
-    "static/media/afr.7bb6f072.jpg": "/afrwebprofile/static/media/afr.7bb6f072.jpg",
+    "static/media/afr.1e25e26f.png": "/afrwebprofile/static/media/afr.1e25e26f.png",
+    "static/media/afr2.68b73667.png": "/afrwebprofile/static/media/afr2.68b73667.png",
     "static/media/dashboardAdmin.7a317de3.png": "/afrwebprofile/static/media/dashboardAdmin.7a317de3.png",
     "static/media/dashboardUser.e0d57b0c.png": "/afrwebprofile/static/media/dashboardUser.e0d57b0c.png",
     "static/media/hiragana.5c5ed104.png": "/afrwebprofile/static/media/hiragana.5c5ed104.png",
@@ -50,6 +51,6 @@
     "static/css/2.a9a27d1d.chunk.css",
     "static/js/2.a41c8381.chunk.js",
     "static/css/main.031134ad.chunk.css",
-    "static/js/main.a83f4110.chunk.js"
+    "static/js/main.75ead60a.chunk.js"
   ]
 }
