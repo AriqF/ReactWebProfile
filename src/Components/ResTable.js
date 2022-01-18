@@ -58,7 +58,7 @@ function ResTable(){
                     <tbody>
                         <tr>
                             <td className="td-org">
-                                Students Association (HIMAPRO) <span className="text-muted"> - State University of Surabaya Language Center</span>
+                                Students Association (HIMAPRO) <span className="text-muted"> - State University of Surabaya</span>
                                 <br /> <span className="text-muted"><small>Surabaya - Indonesia</small></span>
                             </td>
                             <td className="td-year text-center">
