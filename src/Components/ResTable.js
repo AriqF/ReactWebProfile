@@ -62,7 +62,7 @@ function ResTable(){
                                 <br /> <span className="text-muted"><small>Surabaya - Indonesia</small></span>
                             </td>
                             <td className="td-year text-center">
-                                2020 
+                                2021 
                             </td>
                         </tr>
                         <tr>
