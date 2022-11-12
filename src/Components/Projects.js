@@ -3,6 +3,8 @@ import RingkasNetPro from './Projects/RingkasNetPro';
 import ManGoPro from './Projects/ManGoPro';
 import LaraTalesPro from './Projects/LaraTalesPro';
 import { Row, Col, Container } from 'react-bootstrap';
+import TamiPro from './Projects/TamiPro';
+import TrastPro from './Projects/TrastPro';
 
 function Projects(){
     return (
@@ -12,9 +14,9 @@ function Projects(){
                     <h2 style={{marginTop: '48px'}}>My Projects</h2>
                     <p className="ls-1"><span style={{backgroundColor: '#DA0037', padding: '2px 12px 2px 12px'}}>Check Out a Few of My Lastest Projects</span></p>
                     <Row >
-                    <Col xl={4} lg={4} md={6} xs={12} data-aos="zoom-in" data-aos-duration="1000">
+                    {/* <Col xl={4} lg={4} md={6} xs={12} data-aos="zoom-in" data-aos-duration="1000">
                         <MoKaryaPro />
-                    </Col>
+                    </Col> */}
                     <Col xl={4} lg={4} md={6} xs={12} data-aos="zoom-in" data-aos-duration="1000">
                         <RingkasNetPro />
                     </Col>
@@ -23,6 +25,12 @@ function Projects(){
                     </Col>
                     <Col xl={4} lg={4} md={6} xs={12} data-aos="zoom-in" data-aos-duration="1000">
                         <LaraTalesPro />
+                    </Col>
+                    <Col xl={4} lg={4} md={6} xs={12} data-aos="zoom-in" data-aos-duration="1000">
+                        <TamiPro />
+                    </Col>
+                    <Col xl={4} lg={4} md={6} xs={12} data-aos="zoom-in" data-aos-duration="1000">
+                        <TrastPro />
                     </Col>
                     </Row> 
                 </div> 

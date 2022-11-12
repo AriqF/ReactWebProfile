@@ -8,7 +8,7 @@ function MoKaryaPro(){
         <div className="project-items">
             <img className="img-fluid" src={imgMokarya} alt="mokarya-project"/>
             <a href="https://github.com/AriqF/MoKarya" className="projectLink">
-                <h4>MoKarya</h4>
+                <h4>MoKarya <span><small style={{fontSize: "0.5em"}}>(2021)</small></span></h4>
             </a>
             <div className="box-body">
                 <div className="d-flex d-row text-center tag-container">   

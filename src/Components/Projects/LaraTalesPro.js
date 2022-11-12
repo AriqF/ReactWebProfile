@@ -7,7 +7,7 @@ function MoKaryaPro(){
         <div className="project-items">
             <img className="img-fluid " src={imgLaraTales} alt="lara-tales-project"/>
             <Link to="/laratales-details" className="projectLink">
-                <h4>Lara Tales</h4>
+                <h4>Lara Tales <span><small style={{fontSize: "0.5em"}}>(2021)</small></span> </h4> 
             </Link>
 
             <div className="box-body">
