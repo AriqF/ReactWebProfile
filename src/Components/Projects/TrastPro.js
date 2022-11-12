@@ -8,7 +8,7 @@ export default function TrastPro() {
         <div className="project-items">
             <img className="img-fluid " src={imgProject} alt="trast-project"/>
             <Link to="#" className="projectLink">
-                <h4>TAMI <span><small style={{fontSize: "0.5em"}}>(2022)</small></span> </h4> 
+                <h4>TRAST <span><small style={{fontSize: "0.5em"}}>(2022)</small></span> </h4> 
             </Link>
 
             <div className="box-body">
