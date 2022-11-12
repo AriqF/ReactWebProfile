@@ -63,7 +63,7 @@ function ContactUs(){
                     <Col xl={6} lg={12} md={12} id="box-right">
                         <ul className="pl-0 fadeInDown" id="contacts-list" style={{listStyle:'none'}}>
                             <li ><i className="fas fa-phone-alt"></i> +62-8211-2725-688</li>
-                            <li ><i className="fas fa-map-marked-alt"></i> Gunungputri, Bogor, West Java Indonesia</li>
+                            <li ><i className="fas fa-map-marked-alt"></i> Gunungputri, Bogor, West Java, Indonesia</li>
                             <li ><i className="far fa-envelope"></i> ariqfachry2611@gmail.com</li>
                         </ul>
                         <div id="quotes" className="pl-0 fadeInUp">
