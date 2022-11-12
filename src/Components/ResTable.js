@@ -10,7 +10,7 @@ function ResTable(){
                     <tbody>
                         <tr>
                             <td className="td-org">
-                                Software Engineering <span className="text-muted"> - State University of Surabaya</span>
+                                Bachelor of Applied Science in Software Engineering <span className="text-muted"> - State University of Surabaya</span>
                                 <br /> <span className="text-muted"><small>Surabaya - Indonesia</small></span>
                             </td>
                             <td className="td-year text-center">
@@ -53,9 +53,27 @@ function ResTable(){
                     </tbody>
                 </Table>
 
-                <h2 className="subheader-resume">Certification, Awards, And Organizations</h2>
+                <h2 className="subheader-resume">Awards, Certification, and Experiences</h2>
                 <Table className="table-education" data-aos="fade-down" data-aos-duration="1000">
                     <tbody>
+                        <tr>
+                            <td className="td-org">
+                                Backend Developer Bootcamp <span className="text-muted"> - Ruangguru CAMP</span>
+                                <br /> <span className="text-muted"><small>Kampus Merdeka Programme</small></span>
+                            </td>
+                            <td className="td-year text-center">
+                                Aug - Dec 2022 (Ongoing)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td className="td-org">
+                                Backend Developer Intern <span className="text-muted"> - Tokocrypto</span>
+                                <br /> <span className="text-muted"><small>Kampus Merdeka Programme</small></span>
+                            </td>
+                            <td className="td-year text-center">
+                                Mar - Aug 2022 
+                            </td>
+                        </tr>
                         <tr>
                             <td className="td-org">
                                 Students Association (HIMAPRO) <span className="text-muted"> - State University of Surabaya</span>

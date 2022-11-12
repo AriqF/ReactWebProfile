@@ -11,10 +11,12 @@ function ResProfile(){
                     </Col>
                     <Col xl={8} lg={12} md={12} className="align-items-center" id="text-section">
                         <h1 id="hi">Hello, I'm <h1 className="fadeInRight" style={{backgroundColor: '#DA0037'}}>Ariq Fachry</h1></h1>
-                        <p>Currently a third year vocational student at faculty of vocational in Surabaya State University, Indonesia. 
-                            I have a strong interest in software development and game development. I also have quite experienced 
-                            in web development especially in Front-End development. I am also able to work individually or with team and 
-                            able to communicate well. I used to work with the help of some tools like GitHub for collaboration and Notion for scheduling and task tracking to make my works more efficient.
+                        <p>
+                        Currently a fourth year student in bachelor of applied science in informatics engineering at faculty of vocational in Universitas Negeri Surabaya. 
+                        I have set of projects and internship experience to improve and strengthen my skills. During work, 
+                        I used to work in help of tools such as GitHub for collaboration and version control and Notion to 
+                        organize my work and schedule. In result, I able to provide the result of my work ahead of schedule. 
+                        I am capable to work individually or with team and have the ability to communicate well.
                         </p>
                         <div className="text-left" id="personal">
                             <Row>
